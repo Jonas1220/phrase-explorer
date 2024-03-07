@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+// import data from "../utils/data.json"
 export default function Start() {
     const [items, setItems] = useState(['Item 1', 'Item 2', 'Item 3']);
     const [filter, setFilter] = useState('');

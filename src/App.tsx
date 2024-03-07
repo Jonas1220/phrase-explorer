@@ -1,8 +1,16 @@
 import React from 'react';
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import Start from './Start/Start';
+import Lang from './Lang/Lang';
 
 function App() {
     return (
-        <div className="bg-red-400">TEST</div>
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' element={<Start />} />
+                <Route path='/:lang' element={<Lang />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 

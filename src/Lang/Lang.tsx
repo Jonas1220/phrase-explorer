@@ -16,7 +16,7 @@ export default function Lang() {
     const Langs:LanguageData=data;
     useEffect(()=>{
         if (lang) { if (!Langs[lang]) { navigate('/') } }
-    },[lang])
+    },[lang,Langs,navigate])
     
     return lang ? (
         <div>

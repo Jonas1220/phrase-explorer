@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import data from "../utils/data.json"
 import LangItem from '../components/LangItem';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 interface LanguageData {
     [key: string]: {
         phrases: { [key: string]: string };

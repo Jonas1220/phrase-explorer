@@ -31,7 +31,7 @@ export default function Start() {
     return (
         <div className="w-full flex flex-col items-center">
             <div className='max-w-2xl w-full flex justify-between items-center my-5 p-2'>
-                <h1 className='text-3xl text-gray-100 font-semibold'>Phrase Explorer</h1>
+                <h1 className='text-3xl text-gray-100 subpixel-antialiased'>Phrase Explorer</h1>
                 <Link to={'https://grnwinlvg3n.typeform.com/to/YWb8qz0I'} target='_blank' className='px-3 py-1 border border-gray-300 rounded-full text-gray-300 hover:text-white hover:border-white'>Add Language</Link>
             </div>
             <div className='bg-blue-200s w-full max-w-2xl p-2 px-3 bg-white rounded-3xl'>

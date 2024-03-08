@@ -15,6 +15,7 @@ interface LanguageArrayItem {
     flag: string
 };
 
+// NOTE: create array from data object (only key,val and flag)
 const createLanguageArray = (data: LanguageData): { key: string; val: string; flag: string }[] => {
     return Object.keys(data).map((key) => ({
         key,
@@ -27,10 +28,8 @@ const languageArray: LanguageArrayItem[] = createLanguageArray(data);
 
 export default function Start() {
     const [filter, setFilter] = useState('');
-
-    const filteredLanguages = languageArray.filter(
-        (item) => item.val.toLowerCase().includes(filter.toLowerCase())
-    );
+    // NOTE: filter and sort 
+    const filteredLanguages = languageArray.filter((item) => item.val.toLowerCase().includes(filter.toLowerCase())).sort((a, b) => a.val.localeCompare(b.val));
     return (
         <div className="bg-red-200 w-full flex justify-center">
             <div className='bg-blue-200s w-full max-w-4xl border border-black p-2'>
@@ -38,7 +37,7 @@ export default function Start() {
                     <h1>HEADER</h1>
                     <button>btn</button>
                 </div>
-                <input type="text" placeholder="Search..." value={filter} onChange={(e) => setFilter(e.target.value)} />
+                <input className='w-full p-2 rounded-full my-2' type="text" placeholder="Search..." value={filter} onChange={(e) => setFilter(e.target.value)} />
                 {filteredLanguages.map((item, index) => (
                     <LangItem langIso={item.key} lang={item.val} flag={item.flag}/>
                 ))}

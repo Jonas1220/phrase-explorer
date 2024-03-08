@@ -20,10 +20,10 @@ export default function Lang() {
     },[lang,Langs,navigate])
     
     return lang ? (
-        <div>
+        <div className="w-full flex flex-col items-center mt-2">
             {/* <button onClick={()=>navigate('/')}>X</button> */}
             <div className={"w-10 h-10 rounded-full fib fis fi-"+lang}></div>
-            <div>
+            <div className='w-full max-w-2xl'>
                 {Object.keys(Langs[lang]['phrases']).map((originalPhrase, index) => (
                     <Translation langIso={lang} key={index} input={originalPhrase} output={Langs[lang]['phrases'][originalPhrase]}/>
                 ))}

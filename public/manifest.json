@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Phrase Explorer",
+  "name": "Get a first glimse of the countries language",
   "icons": [
     {
       "src": "favicon.ico",

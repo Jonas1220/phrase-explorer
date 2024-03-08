@@ -35,7 +35,7 @@ export default function Start() {
                 <h1 className='text-3xl text-gray-100'>Phrase Explorer</h1>
                 {/* <button className='px-3 py-1 border border-black rounded-full'>login</button> */}
             </div>
-            <div className='bg-blue-200s w-full max-w-2xl border border-black p-2 px-3 bg-white rounded-3xl'>
+            <div className='bg-blue-200s w-full max-w-2xl p-2 px-3 bg-white rounded-3xl'>
                 <input className='w-full p-2 rounded-full my-2 bg-slate-200 border focus:border-indigo-500' type="text" placeholder="Search..." value={filter} onChange={(e) => setFilter(e.target.value)} />
                 {filteredLanguages.map((item, index) => (
                     <LangItem langIso={item.key} lang={item.val} flag={item.flag}/>

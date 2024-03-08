@@ -21,7 +21,7 @@ export default function Lang() {
     
     return lang ? (
         <div className="w-full flex flex-col items-center">
-                <div className='max-w-2xl w-full flex justify-between items-center my-5 p-2'>
+                <div className='max-w-2xl w-full flex justify-between items-center my-3 p-2'>
                     <button className='text-2xl text-white' onClick={()=>navigate('/')}>{'←'}</button>
                     <div className={"w-12 h-12 rounded-full fib fis fi-"+lang}></div>
                     <div className='text-2xl opacity-0'>{'←'}</div>

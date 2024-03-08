@@ -35,7 +35,7 @@ export default function Start() {
                 <Link to={'https://grnwinlvg3n.typeform.com/to/YWb8qz0I'} target='_blank' className='px-3 py-1 border border-gray-300 rounded-full text-gray-300 hover:text-white hover:border-white'>Add Language</Link>
             </div>
             <div className='bg-blue-200s w-full max-w-2xl p-2 px-3 bg-white rounded-3xl'>
-                <input className='w-full p-2 rounded-full my-2 bg-slate-200 border focus:border-indigo-500 shadow-md shadow-slate-400' type="text" placeholder="Search..." value={filter} onChange={(e) => setFilter(e.target.value)} />
+                <input className='w-full p-2 rounded-full my-2 bg-slate-200 border focus:border-indigo-500 shadow-inner' type="text" placeholder="Search..." value={filter} onChange={(e) => setFilter(e.target.value)} />
                 {filteredLanguages.map((item, index) => (
                     <LangItem key={item.key} langIso={item.key} lang={item.val} />
                 ))}

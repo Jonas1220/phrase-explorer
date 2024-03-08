@@ -433,5 +433,34 @@
         },
         "flag": "🇰🇷",
         "full": "Korean"
+    },
+    "sr": {
+        "phrases": {
+            "Hello": "Здраво (Zdravo)",
+            "Please": "Молим те (Molim te)",
+            "Thank you": "Хвала (Hvala)",
+            "Excuse me": "Извини (Izvini)",
+            "Yes": "Да (Da)",
+            "No": "Не (Ne)",
+            "Where is...?": "Где је...? (Gde je...?)",
+            "I need help": "Треба ми помоћ (Treba mi pomoć)",
+            "Can I have the bill, please?": "Могу ли добити рачун, молим те? (Mogu li dobiti račun, molim te?)",
+            "I need a taxi.": "Треба ми такси (Treba mi taksi)",
+            "Where is the nearest pharmacy?": "Где је најближа апотека? (Gde je najbliža apoteka?)",
+            "I'm lost.": "Изгубио/ла сам се (Izgubio/la sam se)",
+            "Help!": "Упомоћ! (Upomoć!)",
+            "I would like to order...": "Желео/ла бих наручити... (Želeo/la bih naručiti...)",
+            "Do you have a menu in English?": "Имате ли мени на енглеском? (Imate li meni na engleskom?)",
+            "I have a reservation.": "Имам резервацију (Imam rezervaciju)",
+            "What time is it?": "Колико је сати? (Koliko je sati?)",
+            "How do I get to the airport/train station/bus station?": "Како да стигнем до аеродрома/железничке станице/аутобуске станице? (Kako da stignem do aerodroma/železničke stanice/autobuske stanice?)",
+            "Is there a restroom nearby?": "Да ли има тоалет у близини? (Da li ima toalet u blizini?)",
+            "I don't eat meat/dairy/gluten.": "Не једем месо/млечне производе/глутен (Ne jedem meso/mlečne proizvode/gluten)",
+            "Could you recommend a good restaurant?": "Можете ли препоручити добар ресторан? (Možete li preporučiti dobar restoran?)",
+            "I'm not feeling well.": "Не осећам се добро (Ne osećam se dobro)",
+            "Can you speak more slowly, please?": "Можете ли говорити спорије, молим те? (Možete li govoriti sporije, molim te?)"
+        },
+        "flag": "🇷🇸",
+        "full":"Serbian"
     }
 }

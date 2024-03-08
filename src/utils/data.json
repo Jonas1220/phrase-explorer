@@ -1,5 +1,5 @@
 {
-    "el": {
+    "gr": {
         "phrases": {
             "Hello": "Γεια σας (Ya sas)",
             "Please": "Παρακαλώ (Parakaló)",
@@ -57,7 +57,7 @@
         "flag": "🇹🇷",
         "full": "Turkish"
     },
-    "sv": {
+    "se": {
         "phrases": {
             "Hello": "Hej",
             "Please": "Snälla",
@@ -260,7 +260,7 @@
         "flag": "🇵🇹",
         "full": "Portuguese"
     },
-    "ar": {
+    "sa": {
         "phrases": {
             "Hello": "السلام عليكم (As-salamu alaykum)",
             "Please": "من فضلك (Min fadlik)",
@@ -289,7 +289,7 @@
         "flag": "🇸🇦",
         "full": "Arabic"
     },
-    "zh": {
+    "cn": {
         "phrases": {
             "Hello": "你好 (Nǐ hǎo)",
             "Please": "请 (Qǐng)",
@@ -347,7 +347,7 @@
         "flag": "🇷🇺",
         "full": "Russian"
     },
-    "ja": {
+    "jp": {
         "phrases": {
             "Hello": "こんにちは (Konnichiwa)",
             "Please": "お願いします (Onegaishimasu)",
@@ -376,7 +376,7 @@
         "flag": "🇯🇵",
         "full": "Japanese"
     },
-    "hi": {
+    "in": {
         "phrases": {
             "Hello": "नमस्ते (Namaste)",
             "Please": "कृपया (Kripaya)",
@@ -405,7 +405,7 @@
         "flag": "🇮🇳",
         "full": "Hindi"
     },
-    "ko": {
+    "kr": {
         "phrases": {
             "Hello": "안녕하세요 (Annyeonghaseyo)",
             "Please": "제발 (Jebal)",
@@ -434,7 +434,7 @@
         "flag": "🇰🇷",
         "full": "Korean"
     },
-    "sr": {
+    "rs": {
         "phrases": {
             "Hello": "Здраво (Zdravo)",
             "Please": "Молим те (Molim te)",

@@ -21,8 +21,11 @@ export default function Lang() {
     
     return lang ? (
         <div className="w-full flex flex-col items-center mt-2">
-            {/* <button onClick={()=>navigate('/')}>X</button> */}
-            <div className={"w-10 h-10 rounded-full fib fis fi-"+lang}></div>
+            <div className='flex w-full justify-between'>
+                <button className='text-xl text-white' onClick={()=>navigate('/')}>{'<-'}</button>
+                <div className={"w-12 h-12 rounded-full fib fis fi-"+lang}></div>
+                <div className='opacity-0'>{'<-'}</div>
+            </div>
             <div className='w-full max-w-2xl'>
                 {Object.keys(Langs[lang]['phrases']).map((originalPhrase, index) => (
                     <Translation langIso={lang} key={index} input={originalPhrase} output={Langs[lang]['phrases'][originalPhrase]}/>

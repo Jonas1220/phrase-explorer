@@ -16,7 +16,13 @@ export default function Lang() {
     const navigate = useNavigate()
     const Langs:LanguageData=data;
     useEffect(()=>{
-        if (lang) { if (!Langs[lang]) { navigate('/') } }
+        if (lang) {
+            if (!Langs[lang]) { navigate('/') }
+            
+            // else {
+            //     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            // }
+        }
     },[lang,Langs,navigate])
     
     return lang ? (

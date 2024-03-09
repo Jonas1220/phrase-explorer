@@ -48,8 +48,8 @@ export default function Lang() {
                     <div className={"w-12 h-12 rounded-full border fib fis fi-"+lang}></div>
                     <div className='text-2xl opacity-0'>{'←'}</div>
                 </div>
-                <input className='w-full p-2 rounded-full my-2 bg-slate-200 border focus:border-indigo-500 shadow-inner' type="text" placeholder="Search..." value={filter} onChange={(e) => setFilter(e.target.value)} />
                 <div className='bg-blue-200s w-full max-w-2xl p-2 px-3 bg-white rounded-3xl'>
+                    <input className='w-full p-2 rounded-full my-2 bg-slate-200 border focus:border-indigo-500 shadow-inner' type="text" placeholder="Search..." value={filter} onChange={(e) => setFilter(e.target.value)} />
                     {/* {Object.keys(Langs[lang]['phrases']).map((originalPhrase, index) => (
                         <Translation langIso={lang} key={index} input={originalPhrase} output={Langs[lang]['phrases'][originalPhrase]}/>
                     ))} */}

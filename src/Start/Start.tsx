@@ -39,9 +39,16 @@ export default function Start() {
             </div>
             <div className='bg-blue-200s w-full max-w-2xl p-2 px-3 bg-white rounded-3xl'>
                 <input className='w-full p-2 rounded-full my-2 bg-slate-200 border focus:border-indigo-500 shadow-inner' type="text" placeholder="Search..." value={filter} onChange={(e) => setFilter(e.target.value)} />
-                {filteredLanguages.map((item, index) => (
+                {filteredLanguages.length ? filteredLanguages.map((item, index) => (
                     <LangItem key={item.key} langIso={item.key} lang={item.val} />
-                ))}
+                ))
+                :
+                <div className='my-3 flex flex-col items-center bg-slate-200 justify-between py-2 px-4 rounded-xl shadow-md shadow-slate-400'>
+                    <h1>Language not found</h1>
+                    <h1>But feel free to add the language</h1>
+                    <Link to={'https://forms.gle/QaKXNzjUfEnLPqsr5'} target='_blank' className='text-center px-2 py-2 border border-gray-600 rounded-full text-gray-600 hover:text-black hover:border-black ease-in transition-all text-xs'>Add Language</Link>
+                </div>
+                }
             </div>
         </div>
     )

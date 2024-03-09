@@ -33,7 +33,6 @@ export default function Start() {
             <div className='max-w-2xl w-full flex justify-between items-center my-5 p-2'>
                 <h1 className='text-3xl text-gray-100 subpixel-antialiased'>Phrase Explorer</h1>
                 {/* <Link to={'https://grnwinlvg3n.typeform.com/to/YWb8qz0I'} target='_blank' className='px-3 py-1 border border-gray-300 rounded-full text-gray-300 hover:text-white hover:border-white ease-in transition-all'>Add Language</Link> */}
-                {/* https://www.jotform.com/typeform-alternative/pricing/ */}
             </div>
             <div className='bg-blue-200s w-full max-w-2xl p-2 px-3 bg-white rounded-3xl'>
                 <input className='w-full p-2 rounded-full my-2 bg-slate-200 border focus:border-indigo-500 shadow-inner' type="text" placeholder="Search..." value={filter} onChange={(e) => setFilter(e.target.value)} />

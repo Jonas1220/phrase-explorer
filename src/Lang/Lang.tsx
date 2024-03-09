@@ -38,7 +38,7 @@ export default function Lang() {
             setFilteredPhrases(filteredPhrasesTmp) 
         }
 
-    },[filter])
+    },[filter,Langs,lang])
     
     
     return lang ? (

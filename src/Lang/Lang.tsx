@@ -18,10 +18,7 @@ export default function Lang() {
     useEffect(()=>{
         if (lang) {
             if (!Langs[lang]) { navigate('/') }
-            
-            // else {
-            //     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-            // }
+            else { window.scrollTo({ top: 0, behavior: 'smooth' }); }
         }
     },[lang,Langs,navigate])
     

@@ -54,7 +54,7 @@ export default function Lang() {
                         <Translation langIso={lang} key={index} input={originalPhrase} output={Langs[lang]['phrases'][originalPhrase]}/>
                     ))} */}
                     {filteredPhrases?.length ? filteredPhrases.map((item: { output: string; input: string; }, index: React.Key | null | undefined) => (
-                        <Translation langIso={lang} key={index} input={item.output} output={item.input}/>
+                        <Translation langIso={lang} key={index} input={item.input} output={item.output}/>
                     ))
                     :
                     <div className='my-3 flex flex-col items-center bg-slate-200 justify-between py-2 px-4 rounded-xl shadow-md shadow-slate-400'>

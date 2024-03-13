@@ -542,5 +542,37 @@
         },
         "flag": "🇫🇮",
         "full":"Finnish"
-      }
+    },
+    "pl": {
+        "phrases": {
+            "Hello": "Cześć",
+            "Please": "Proszę",
+            "Thank you": "Dziękuję",
+            "Excuse me": "Przepraszam",
+            "Yes": "Tak",
+            "No": "Nie",
+            "Where is...?": "Gdzie jest...?",
+            "I need help": "Potrzebuję pomocy",
+            "Can I have the bill, please?": "Czy mogę prosić o rachunek?",
+            "I need a taxi.": "Potrzebuję taksówkę.",
+            "Where is the nearest pharmacy?": "Gdzie jest najbliższa apteka?",
+            "I'm lost.": "Zgubiłem się. / Zgubiłam się.",
+            "Help!": "Pomocy!",
+            "I would like to order...": "Chciałbym/chciałabym zamówić...",
+            "Do you have a menu in English?": "Czy macie menu po angielsku?",
+            "I have a reservation.": "Mam rezerwację.",
+            "What time is it?": "Która godzina?",
+            "How do I get to the airport/train station/bus station?": "Jak dojść do lotniska/do dworca kolejowego/na dworzec autobusowy?",
+            "Is there a restroom nearby?": "Czy jest tu w pobliżu toaleta?",
+            "I don't eat meat/dairy/gluten.": "Nie jem mięsa/nabiału/glutenu.",
+            "Could you recommend a good restaurant?": "Czy możesz polecić dobrą restaurację?",
+            "I'm not feeling well.": "Źle się czuję.",
+            "Can you speak more slowly, please?": "Czy możesz mówić wolniej, proszę?",
+            "Good morning": "Dzień dobry",
+            "Good evening": "Dobry wieczór",
+            "Good night": "Dobranoc"
+        },
+        "flag": "🇵🇱",
+        "full":"Polish"
+    }
 }
